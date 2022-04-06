@@ -18,55 +18,55 @@
         <label> Student: <strong>{{ $student_1}}</strong></label>
         <div class="col col-md-4">
             <label> Midterm Grade </label>
-            <input type="number" name="s1_grade1" class="form-control">
+            <input type="number" name="s1_grade1" class="form-control" required>
         </div>
         <div class="col col-md-4">
             <label> Finals Grade </label>
-            <input type="number" name="s1_grade2" class="form-control">
+            <input type="number" name="s1_grade2" class="form-control" required>
         </div>
     </div>
     <div class="row">
         <label> Student: <strong>{{ $student_2}}</strong></label>
         <div class="col col-md-4">
             <label> Midterm Grade </label>
-            <input type="number" name="s2_grade1" class="form-control">
+            <input type="number" name="s2_grade1" class="form-control" required>
         </div>
         <div class="col col-md-4">
             <label> Finals Grade </label>
-            <input type="number" name="s2_grade2" class="form-control">
+            <input type="number" name="s2_grade2" class="form-control" required>
         </div>
     </div>
     <div class="row">
         <label> Student: <strong>{{ $student_3}}</strong></label>
         <div class="col col-md-4">
             <label> Midterm Grade </label>
-            <input type="number" name="s3_grade1" class="form-control">
+            <input type="number" name="s3_grade1" class="form-control" required>
         </div>
         <div class="col col-md-4">
             <label> Finals Grade </label>
-            <input type="number" name="s3_grade2" class="form-control">
+            <input type="number" name="s3_grade2" class="form-control" required>
         </div>
     </div>
     <div class="row">
         <label> Student: <strong>{{ $student_4}}</strong></label>
         <div class="col col-md-4">
             <label> Midterm Grade </label>
-            <input type="number" name="s4_grade1" class="form-control">
+            <input type="number" name="s4_grade1" class="form-control" required>
         </div>
         <div class="col col-md-4">
             <label> Finals Grade </label>
-            <input type="number" name="s4_grade2" class="form-control">
+            <input type="number" name="s4_grade2" class="form-control" required>
         </div>
     </div>
     <div class="row">
         <label> Student: <strong>{{ $student_5}}</strong></label>
         <div class="col col-md-4">
             <label> Midterm Grade </label>
-            <input type="number" name="s5_grade1" class="form-control">
+            <input type="number" name="s5_grade1" class="form-control" required>
         </div>
         <div class="col col-md-4">
             <label> Finals Grade </label>
-            <input type="number" name="s5_grade2" class="form-control">
+            <input type="number" name="s5_grade2" class="form-control" required>
         </div>
     </div>
     <hr />
