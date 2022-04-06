@@ -11,7 +11,7 @@
     @for ($i = 1; $i <= 5; $i++) 
     <div class="row">
         <label> Student {{$i}} Name: </label>
-        <input type="text" name="name_{{ $i }}" class="form-control">
+        <input type="text" name="name_{{ $i }}" class="form-control" required>
     </div>
     @endfor
     <hr />
